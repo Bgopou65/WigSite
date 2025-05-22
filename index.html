@@ -1,181 +1,46 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>WigNBeyond</title>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
-  <style>
-    body {
-      font-family: 'Montserrat', sans-serif;
-      background-color: #F3E2D4;
-      color: #2D1B1B;
-      margin: 0;
-      padding: 0;
-    }
-    header {
-      background-color: #4B2048;
-      color: white;
-      text-align: center;
-      padding: 2rem 1rem;
-    }
-    header h1 {
-      font-family: 'Playfair Display', serif;
-      font-size: 3rem;
-      font-style: italic;
-      margin: 0;
-    }
-    header span {
-      font-weight: 600;
-      font-size: 2rem;
-      color: #8DC88A;
-      display: block;
-      margin-top: 0.3rem;
-    }
-    section {
-      padding: 2.5rem 1rem;
-      max-width: 800px;
-      margin: auto;
-    }
-    h2 {
-      font-family: 'Playfair Display', serif;
-      color: #4B2048;
-      font-size: 2rem;
-    }
-    p {
-      font-size: 1.1rem;
-      line-height: 1.7;
-    }
-    button, a.button {
-      background-color: #2A7870;
-      color: white;
-      padding: 0.8rem 1.5rem;
-      font-size: 1rem;
-      border: none;
-      border-radius: 6px;
-      cursor: pointer;
-      text-decoration: none;
-      display: inline-block;
-      margin-top: 1rem;
-    }
-    .card-grid {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 2rem;
-      justify-content: center;
-      margin-top: 2rem;
-    }
-    .card {
-      background: #fff;
-      padding: 1rem;
-      border-radius: 8px;
-      width: 280px;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-    }
-    .card img {
-      width: 100%;
-      border-radius: 6px;
-    }
-  </style>
-</head>
-<body>
-  <header>
-    <h1>WigN<span>Beyond</span></h1>
-    <p>Confidence. Care. Community.</p>
-  </header>
+<section style="background-color:#fdf6f0; padding: 60px 20px;">
+  <div style="max-width: 950px; margin: auto; text-align: center;">
+    <h2 style="font-family:'Georgia', serif; color:#551a4b;">Wig Match Access Plans</h2>
+    <p style="font-size: 18px; color:#333;">Get personalized results based on your face shape, skin tone, and eye color.</p>
 
-  <section>
-    <h2>Dear Beautiful,</h2>
-    <p>I created WigNBeyond not just to sell wigs—but to hold space. A space for you to feel seen, supported, and stunning.</p>
-    <p>I know how it feels to stand in front of the mirror and not recognize yourself. To wonder, <em>Will this wig fit me? Will people stare? Will I still feel like me?</em></p>
-    <p>Pages and pages of styles. Thousands of options. But still no clear answer.</p>
-    <p>You shouldn’t have to guess. You shouldn’t have to waste time you’ll never get back.</p>
-    <p>That’s why we’re here—to help you find the style that feels like <strong>you</strong>.</p>
-    <p>Whether you’re healing through hair loss or just ready to shine—<strong>you are not alone.</strong></p>
-    <p>With love,<br><strong>[Your Name]</strong><br>Founder, WigNBeyond</p>
-  </section>
+    <div style="display: flex; flex-wrap: wrap; justify-content: center; margin-top: 40px; gap: 30px;">
 
-  <section style="text-align: center;">
-    <h2>Ready to Discover Your Perfect Wig?</h2>
-    <p>Let us match you with styles based on your face shape, skin tone, and how you want to feel.</p>
-    <a href="#quiz" class="button">Take the Quiz</a>
-  </section>
-
-  <section id="quiz">
-    <h2>Find Your Wig Match</h2>
-    <form>
-      <label>Face Shape:</label><br/>
-      <select required style="width:100%; padding:0.5rem; margin-bottom:1rem;">
-        <option value="">Select</option>
-        <option>Oval</option>
-        <option>Round</option>
-        <option>Heart</option>
-        <option>Square</option>
-        <option>Diamond</option>
-      </select>
-      <label>Skin Tone:</label><br/>
-      <select required style="width:100%; padding:0.5rem; margin-bottom:1rem;">
-        <option value="">Select</option>
-        <option>Deep / Rich</option>
-        <option>Medium / Olive</option>
-        <option>Fair / Light</option>
-        <option>Cool Undertone</option>
-        <option>Warm Undertone</option>
-      </select>
-      <label>Eye Color:</label><br/>
-      <select required style="width:100%; padding:0.5rem; margin-bottom:1rem;">
-        <option value="">Select</option>
-        <option>Brown</option>
-        <option>Hazel</option>
-        <option>Green</option>
-        <option>Blue</option>
-        <option>Gray</option>
-      </select>
-      <label>How do you want to feel?</label><br/>
-      <select required style="width:100%; padding:0.5rem; margin-bottom:1rem;">
-        <option value="">Select</option>
-        <option>Confident & Bold</option>
-        <option>Soft & Feminine</option>
-        <option>Professional & Polished</option>
-        <option>Fun & Expressive</option>
-      </select>
-      <button type="submit">Get My Suggestions</button>
-    </form>
-  </section>
-
-  <section>
-    <h2>Your Wig Collection</h2>
-    <div class="card-grid">
-      <div class="card">
-        <img src="https://via.placeholder.com/280x180" alt="Natural Wig">
-        <h3>Natural Curls</h3>
-        <p>Timeless volume with confidence. Great for heart & oval faces.</p>
-        <a href="#" class="button">View Style</a>
+      <!-- Free Plan -->
+      <div style="background: white; padding: 30px; border-radius: 12px; box-shadow: 0 0 12px rgba(0,0,0,0.05); width: 250px;">
+        <h3 style="color: #6b1e6d;">Free Plan</h3>
+        <p style="font-size: 16px;">Take the quiz<br>1 wig suggestion<br>Preview styles only</p>
+        <h4 style="color:#000; margin-top:20px;">$0</h4>
+        <a href="#" style="text-decoration: none; background: #6b1e6d; color: white; padding: 10px 20px; border-radius: 5px; display: inline-block; margin-top: 15px;">Try Now</a>
       </div>
-      <div class="card">
-        <img src="https://via.placeholder.com/280x180" alt="Bold Bob">
-        <h3>Bold Bob</h3>
-        <p>Chic and powerful—perfect for round faces and fierce moods.</p>
-        <a href="#" class="button">View Style</a>
+
+      <!-- 3-Try Plan -->
+      <div style="background: #fff5fc; padding: 30px; border-radius: 12px; box-shadow: 0 0 12px rgba(0,0,0,0.05); width: 250px;">
+        <h3 style="color: #a64d79;">Quick Match</h3>
+        <p style="font-size: 16px;">Take quiz up to 3 times<br>3 wig suggestions<br>No monthly commitment</p>
+        <h4 style="color:#000; margin-top:20px;">$3.97</h4>
+        <a href="#" style="text-decoration: none; background: #a64d79; color: white; padding: 10px 20px; border-radius: 5px; display: inline-block; margin-top: 15px;">Get Access</a>
       </div>
-      <div class="card">
-        <img src="https://via.placeholder.com/280x180" alt="Soft Waves">
-        <h3>Soft Waves</h3>
-        <p>Effortless and elegant—made for everyday wear with warmth.</p>
-        <a href="#" class="button">View Style</a>
+
+      <!-- Monthly Plan -->
+      <div style="background: #e8f6ee; padding: 30px; border-radius: 12px; box-shadow: 0 0 12px rgba(0,0,0,0.05); width: 250px;">
+        <h3 style="color: #008080;">Monthly Member</h3>
+        <p style="font-size: 16px;">Unlimited quizzes<br>Full wig library<br>Bonus tips + support</p>
+        <h4 style="color:#000; margin-top:20px;">$9.97/month</h4>
+        <a href="#" style="text-decoration: none; background: #008080; color: white; padding: 10px 20px; border-radius: 5px; display: inline-block; margin-top: 15px;">Subscribe</a>
       </div>
+
+      <!-- Yearly Plan -->
+      <div style="background: #fef8e6; padding: 30px; border-radius: 12px; box-shadow: 0 0 12px rgba(0,0,0,0.05); width: 250px;">
+        <h3 style="color: #856404;">Annual VIP</h3>
+        <p style="font-size: 16px;">Unlimited quizzes + support<br>Bonus downloads<br>Best value plan</p>
+        <h4 style="color:#000; margin-top:20px;">$49.97/year</h4>
+        <a href="#" style="text-decoration: none; background: #856404; color: white; padding: 10px 20px; border-radius: 5px; display: inline-block; margin-top: 15px;">Go VIP</a>
+      </div>
+
     </div>
-  </section>
 
-  <section>
-    <h2>Makeup Matches for You</h2>
-    <p>We believe in beauty harmony. Based on your features, here are tips to elevate your glow:</p>
-    <ul>
-      <li><strong>Skin Tone:</strong> Deep tones pair beautifully with gold and bronze highlights. Fair skin shines with rosy blushes and soft peach.</li>
-      <li><strong>Eye Color:</strong> Hazel or green eyes pop with purples and coppers. Blue eyes shine with bronze, gold, or warm browns.</li>
-      <li><strong>Face Shape:</strong> Heart-shaped faces: keep blush high. Round faces: contour softly along jawline and temples for lift.</li>
-    </ul>
-    <p>We guide your look from hair to highlight—because confidence starts with harmony.</p>
-  </section>
-</body>
-</html>
+    <p style="margin-top: 40px; font-size: 16px; color:#444;">
+      <strong>Add-on:</strong> Want makeup suggestions too? Upgrade anytime for <strong style="color:#d6336c;">$3.99</strong> and get 2 looks picked just for you.
+    </p>
+  </div>
+</section>
