@@ -157,6 +157,22 @@
     `"In the mirror, meet a miracle.  
     No wig can define you —  
     but it can celebrate your story."`,
+<script>
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+        observer.unobserve(entry.target);
+      }
+    });
+  }, {
+    threshold: 0.3
+  });
+
+  document.querySelectorAll('.fade-slide').forEach(el => {
+    observer.observe(el);
+  });
+</script>
 
     `"You are grace in motion.  
     When the world forgot your light,  
