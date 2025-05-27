@@ -82,6 +82,12 @@
 
   </form>
 </section>
+<script>
+  document.querySelector('#quiz').addEventListener('submit', function (e) {
+    e.preventDefault();
+    document.querySelector('#confirmationMessage').style.display = 'block';
+  });
+</script>
 
 <section style="background-color:#dff5f8; padding: 50px 20px; text-align: center;">
   <h2 style="color:#6b2c91; font-family: 'Georgia', serif;">Crowned in Courage</h2>
