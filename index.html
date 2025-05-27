@@ -69,6 +69,7 @@
 <!-- End Quiz CTA -->
 
 <form id="quiz" action="#" method="POST" style="max-width: 400px; margin: 0 auto;">
+<input type="email" class="form-email" placeholder="Enter your email" required
 
     <input type="email" placeholder="Enter your email" required 
            style="width: 100%; padding: 10px; font-size: 1rem; border-radius: 5px; border: 1px solid #ccc;">
@@ -116,7 +117,23 @@
 
 
     Your crown is not worn — it’s felt.  
-   
+   <style>
+  .form-email:invalid {
+    border: 2px solid #e57373; /* red */
+  }
+
+  .form-email:valid {
+    border: 2px solid #81c784; /* green */
+  }
+</style>
+<style>
+  button[type="submit"]:hover {
+    background-color: #9146a9; /* slightly darker purple */
+    transform: scale(1.03);
+    transition: all 0.3s ease;
+  }
+</style>
+
 
     `"Every strand of self is sacred.  
     You are more than hair —  
